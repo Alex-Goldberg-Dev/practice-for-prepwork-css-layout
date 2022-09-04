@@ -4,9 +4,15 @@ body {
 }
 
 fieldset {
-    padding: 0 120px;
+    padding: 0 90px 30px;
     display: flex;
     flex-direction: column;
+    align-self: center;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 3px;
 }
 
 .content {
@@ -19,4 +25,32 @@ fieldset {
 .info {
     display: flex;
     flex-direction: row;
+    align-self: center;
+    gap: 10px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs {
+    display: flex;
+}
+
+.choice {
+    display: flex;
+    margin: 0 5px;
+}
+
+.comments label {
+    align-items: flex-start;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
 }
